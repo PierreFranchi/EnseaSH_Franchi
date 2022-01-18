@@ -68,7 +68,7 @@ int main (){
                 free(cmdDuplicated); //permet de libérrer l'allocation de la mémoire
 				liste[j] = (char *)NULL; //le dernier mot de la liste correspond au dernier argument de la fonction execvp
 
-                execvp(liste[0],&liste[0];
+                execvp(liste[0],&liste[0]);
 				affiche(prompt);
 			    exit(EXIT_FAILURE);
 		}
